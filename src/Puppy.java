@@ -8,4 +8,13 @@ public class Puppy {
         name = "Truffle";
     }
 
+    public void grow(){
+        age = age + 1;
+    }
+
+    public void small(){
+        if(age>0) {
+            age = age - 1;
+        }
+    }
 }
